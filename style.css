@@ -36,17 +36,24 @@ hr{
 }
 
 .square {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	align-content: center;
-	justify-content: space-around;
-
-	border: solid black 1px;
+	background-color: red;
+	border: solid 1px black;
 	height: 100px; 
 	width: 100px;
-}
+	display: inline-flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	text-align: center;
+	position: relative;
 
+}
+#board{
+	height: 750px;
+	width: 750px;
+	margin: 70px auto;
+	padding: 20px;
+	text-align: center;
+}
 }
 
 }
