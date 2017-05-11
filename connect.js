@@ -9,14 +9,11 @@ $(document).ready(function ()  {
               id: 'littleSquares' + i,
               class: 'square'
             }));
-
-         
-
-         }
-
+			 
+        }
 	};
-	
 	gameSetUp();
+	
 
 	//  For start button, instead of line 12
 	// create a start button in html, and have it call gameSetUp() when clicked
@@ -26,12 +23,6 @@ $(document).ready(function ()  {
 
 
 	var currentPlayer = 1;
-
-
-
-
-
-
 
 	$('#board').on('click', function (event){
 		$(event.target).addClass(`player${currentPlayer}`);
@@ -55,6 +46,8 @@ function dropPiece(x, player){
  			}
  		}
  	}
+
+
  	
  	var board = [
 		[0,0,0,0,0,0,0],
@@ -64,26 +57,6 @@ function dropPiece(x, player){
  	    [0,0,0,0,0,0,0],
  	    [0,0,0,0,0,0,0]
  	];
-
-
-
-
-	// var board = [
-	// 	[0,0,0,0,0,0,0],
-	//     [0,0,0,0,0,0,0],
- // 	 	[0,0,0,0,0,0,0],
- // 	    [0,0,0,0,0,0,0],
- // 	    [0,0,0,0,0,0,0],
- // 	    [0,0,0,0,0,0,0]
- // 	];
-
- // 	function dropPiece(x, player){
- // 		for (var y = 5; y >= 0; y--){
- // 			if (!board [i][x]) {
- // 			board [i][x] = player;
- // 			}
- // 		};
- // 	};
 
  console.table(board);
 
