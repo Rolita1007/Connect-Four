@@ -9,7 +9,7 @@ span{
 	color: red;
 }
 
-.blackButton{
+.blackButton {
 	background-color: black;
 	float: right;
 	padding: 50px;
@@ -18,7 +18,7 @@ span{
 	margin-right: 150px;
 }
 
-.redButton{
+.redButton {
 	background-color: red;
 	float: left;
 	padding: 50px;
@@ -27,7 +27,7 @@ span{
 	margin-left: 150px;
 }
 
-hr{
+hr {
 	background-color: black;
 	padding: 3px;
 	margin-top: 5px;
@@ -35,9 +35,19 @@ hr{
 
 }
 
+#board {
+	height: 770px;
+	width: 740px;
+	margin: 70px auto;
+	padding: 26px;
+	text-align: center;
+	border-radius: 30px;
+	background-color: yellow;
+}
+
 .square {
-	background-color: red;
-	border: solid 1px black;
+	background-color: white;
+	border: solid 1px blue;
 	height: 100px; 
 	width: 100px;
 	display: inline-flex;
@@ -45,21 +55,18 @@ hr{
 	justify-content: center;
 	text-align: center;
 	position: relative;
-
-}
-#board{
-	height: 750px;
-	width: 750px;
-	margin: 70px auto;
-	padding: 20px;
-	text-align: center;
-}
-}
-
+	border-radius: 60px;
 }
 
 
 
+.player1{
+	background-color: black;
+}
+
+.player2{
+	background-color: red;
+}
 
 
 
